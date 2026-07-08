@@ -60,7 +60,7 @@ Na pasta onde está o `docker-compose.yml`, rode:
 docker compose build
 ```
 
-Isso vai baixar as imagens dos contêineres e, ao final do processo, o Moodle estará disponível para uso.
+Isso vai baixar as imagens dos contêineres.
 
 ## 4. Subir os containers
 
@@ -72,7 +72,7 @@ docker compose up -d
 
 ## 5. Acessar o Moodle
 
-Depois que os containers estiverem de pé, acesse o endereço abaixo e de início a instalação do Moodle
+Depois que os containers estiverem de pé, acesse o endereço abaixo para iniciar a instalação do Moodle. Não esqueça de realizar o passo 1.
 
 ```
 http://localhost:8081/moodle
@@ -89,7 +89,7 @@ http://localhost:8082/
 - Usuário comum: moodle_iomad_user
 - Senha: moodle_iomad_password
 
-Foi criada a base de dados: `moodle_iomad_db`
+A instalação do docker criou a base de dados: `moodle_iomad_db`
 
 ## Removendo tudo (ambiente limpo)
 
